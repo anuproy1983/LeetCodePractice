@@ -37,6 +37,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "searching", "searching", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingSolutions", "src\searching\SearchingSolutions\SearchingSolutions.csproj", "{004DFDB4-111B-49DF-A1C4-8A3E41D87A23}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCodeProblem", "LeetCodeProblem", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeSolution", "LeetCodeSolution\LeetCodeSolution.csproj", "{2A760906-6387-4EAD-98DA-FC6562E55E59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +147,18 @@ Global
 		{004DFDB4-111B-49DF-A1C4-8A3E41D87A23}.Release|x64.Build.0 = Release|Any CPU
 		{004DFDB4-111B-49DF-A1C4-8A3E41D87A23}.Release|x86.ActiveCfg = Release|Any CPU
 		{004DFDB4-111B-49DF-A1C4-8A3E41D87A23}.Release|x86.Build.0 = Release|Any CPU
+		{2A760906-6387-4EAD-98DA-FC6562E55E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A760906-6387-4EAD-98DA-FC6562E55E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A760906-6387-4EAD-98DA-FC6562E55E59}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2A760906-6387-4EAD-98DA-FC6562E55E59}.Debug|x64.Build.0 = Debug|Any CPU
+		{2A760906-6387-4EAD-98DA-FC6562E55E59}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2A760906-6387-4EAD-98DA-FC6562E55E59}.Debug|x86.Build.0 = Debug|Any CPU
+		{2A760906-6387-4EAD-98DA-FC6562E55E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A760906-6387-4EAD-98DA-FC6562E55E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A760906-6387-4EAD-98DA-FC6562E55E59}.Release|x64.ActiveCfg = Release|Any CPU
+		{2A760906-6387-4EAD-98DA-FC6562E55E59}.Release|x64.Build.0 = Release|Any CPU
+		{2A760906-6387-4EAD-98DA-FC6562E55E59}.Release|x86.ActiveCfg = Release|Any CPU
+		{2A760906-6387-4EAD-98DA-FC6562E55E59}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,5 +180,10 @@ Global
 		{AF07DF39-8B31-430F-A500-B4DBD61FADC4} = {70FF2028-3A46-F2C5-0B5F-AC1528F1F4B3}
 		{9AD006EA-5E51-7A44-FA39-6305924A4C9C} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{004DFDB4-111B-49DF-A1C4-8A3E41D87A23} = {9AD006EA-5E51-7A44-FA39-6305924A4C9C}
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{2A760906-6387-4EAD-98DA-FC6562E55E59} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C81D454B-A650-44FB-807B-6C5EB588B813}
 	EndGlobalSection
 EndGlobal
